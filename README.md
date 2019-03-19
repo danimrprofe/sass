@@ -1,4 +1,4 @@
-# sass
+# SASS
 Proyecto creado a partir del crash course: https://www.youtube.com/watch?v=roywYSEPSvc
 
 Desarrollado con Visual Studio Code, utilizando SASS.
@@ -34,21 +34,21 @@ nav{
   }
 }
 ```
-** Mixins ** 
+## Mixins ## 
 
 Podemos crear mixins e importarlos en cualquier parte de la hoja.
 
-** Partials **
+## Partials ##
 
 Es posible declarar parte de una hoja de estilos e incluirla en otras hojas.
 Para ello podemos crear un fichero scss e importarlo desde otra hoja de estilos.
 
-** Herencia **
+## Herencia ##
 
 Podemos hacer que un estilo herede las características de otro y extenderlo a nuestro gusto,
 añadiendo nuevas características o sobreescribiendo otras.
 
-** Operadores **
+## Operadores ##
 
 Es posible utilizar operadores numéricos dentro de los estilos para realizar diferentes cálculos.
 
