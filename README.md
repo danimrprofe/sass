@@ -5,8 +5,9 @@ Desarrollado con Visual Studio Code, utilizando SASS.
 
 ## ¿Qué es SASS? 
 
-SASS es un preprocesador para CSS desarrollado en 2007. Permite crear estilos CSS 
-utilizando estructuras de programación en lugar de reglas estáticas.
+SASS es un lenguaje que permite extender las características de CSS, aportando nuevas funcionalidades.
+Para ello utiliza un preprocesador para CSS, que se encarga de generar código CSS a partir del lenguaje SASS.
+De este modo, podemos crear estilos CSS utilizando estructuras de programación en lugar de reglas estáticas.
 
 ## ¿Cómo funciona?
 
@@ -50,7 +51,8 @@ nav{
 ```
 ## Mixins ## 
 
-Podemos crear mixins e importarlos en cualquier parte de la hoja.
+Se trata un conjunto de declaraciones CSS agrupadas que se pueden reutilizar en cualquier lugar del site.
+También se les puede pasar parámetros.
 
 ## Partials ##
 
