@@ -3,15 +3,19 @@ Proyecto creado a partir del crash course: https://www.youtube.com/watch?v=roywY
 
 Desarrollado con Visual Studio Code, utilizando SASS.
 
+## ¿Qué es SASS? 
+
 SASS es un preprocesador para CSS desarrollado en 2007. Permite crear estilos CSS 
 utilizando estructuras de programación en lugar de reglas estáticas.
+
+## Ventajas ## 
 
 Entre otras ventajas:
 * Reduce la repetición de código CSS
 * Permite crear hojas más compactas, manejables y reutilizables.
 * Mejora el tiempo de desarrollo.
 
-** Creación de variables** 
+## Creación de variables ## 
 
 Podemos por un lado declarar variables, que pueden ser utilizadas en cualquier parte del documento.
 ```
@@ -21,7 +25,7 @@ body{
 }
 ```
 
-** Anidación **
+##  Anidación ## 
 Los estilos se pueden anidar:
 ```
 nav{
