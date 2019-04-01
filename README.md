@@ -59,6 +59,14 @@ También se les puede pasar parámetros.
 Es posible declarar parte de una hoja de estilos e incluirla en otras hojas.
 Para ello podemos crear un fichero scss e importarlo desde otra hoja de estilos.
 
+### Crear un archivo parcial ###
+
+Los archivos parciales comienzan con _ para diferenciarlos (_parcial.css) y que SASS no los procese y genere CSS a partir de ellos. La idea es que no se utilicen por si mismos, sino que se incluyan en otros archivos.
+
+### Agregar un archivo parcial a un documento CSS ###
+
+Para incluir los parciales en un documento se utiliza la directiva @import.
+
 ## Herencia ##
 
 Podemos hacer que un estilo herede las características de otro y extenderlo a nuestro gusto,
